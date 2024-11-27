@@ -16,11 +16,10 @@ redirect_from:
 Graduate Research Assisstant, <br>
 [Rochester Institute of Technology](https://www.rit.edu), New York
  -->
-I am a Computer Engineering Graduate at Institute of Engineering, Paschimanchal Campus Nepal.
-As a dedicated computer science student with a passion for innovative technology, I am enthusiastic about the fields of Software Engineering, Natural Language Processing (NLP), Machine Learning, and Data Science
+**Technical Proficiency**: Software Engineer with 3+ years of experience in developing innovative solutions across multiple platforms, achieving performance improvements of up to 15% through code refactoring, enhancing application speed, improving system scalability and efficient resource management.
+**Collaborative Leadership**: Led a cross-functional team to optimize workflows, saving over 10 hours per week in processing time.
 
-**Research Interests**: software engineering, natural language processing (NLP), machine Learning, PL
-
+**Research Interests**: Software engineering, natural language processing (NLP), Machine Learning, Web accessibility
 ---
 
 Get a PDF copy of my CV [here](/files/CV_PrakritiAdhikari_current.pdf)
@@ -31,9 +30,20 @@ Get a PDF copy of my CV [here](/files/CV_PrakritiAdhikari_current.pdf)
 
 ---
 
+### MSCS, Computer Science
+
+2024-2026
+
+Miami University, <br>
+Oxford, Ohio, USA
+
+Percentage: 4.00 GPA
+
+**Coursework:** Machine Learning; Remote Sensing and Computer Vision; Data Structure and Algorithms;
+
 ### BE, Computer Engineering
 
-2017-2021
+2017-2022
 
 Institute of Engineering Paschimanchal Campus, <br>
 Pokhara, Nepal
@@ -49,6 +59,10 @@ Software Engineering; Digital Signal Processing; Embedded Systems
 ## Work Experience
 
 ---
+**Graduate Assistant | Myaamia Center, Miami University | Oxford, OH**      August 2024 – Present
+● Lead the development of both frontend and backend features, encompassing the design and implementation of REST APIs, advanced search functionalities, analytics capabilities, and migration to AWS.
+● Working on a Progressive Web App (PWA) with offline functionality for 80% of core features, increasing cross-platform accessibility by 35%.
+● Worked on a digital archive system capable of storing and managing historical linguistic data from 15 diverse indigenous communities, offering researchers 3 times greater accessibility.
 
 
 
@@ -88,8 +102,12 @@ problems showing involved steps.
 ## Technical Skills
 
 ---
-- **Programming Languages**: Python, C, C++, Javascript
-- **Python Packages**: Pytorch, Tensorflow, Scikit-Learn, OpenCV, Nltk, Pandas, Numpy, Matplotlib, Fastapi, BeautifulSoup, Regex, Jupyter
-- **Database**: MySQL, MongoDB
-- **Other Tools**: Git, Github, Bash, Linux, Jira,
+**Programming Languages**: Python, Javascript, C++, Java, PHP, Go
+**Databases**: MySQL, MariaDB, MongoDB
+**Data Science & Machine Learning**: Decision Trees, Neural Networks, Regression Models, Clustering, Time Series
+Analysis, LSTM, SQL
+**Cloud Engineering & DevOps**: AWS (EC2, S3), Azure, Docker, Apache Spark, Git, Linux/Bash, nginx, CI/CD
+**Frameworks & Tools**: FastAPI, React, Next.js, Typescript, Tailwind CSS, Laravel, Jira, Github, SASS/SCSS, Django,
+GraphQL, Postman, RESTful APIs, Node.js, Bootstrap, Snowflake, Microsoft Office
+**Software Development**: Agile, Scrum, Waterfall, Jira, Postman
 
