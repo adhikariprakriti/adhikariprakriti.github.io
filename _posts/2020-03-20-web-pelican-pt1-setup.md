@@ -326,11 +326,7 @@ SITEMAP = {
 # Add a link to your social media accounts
 SOCIAL = (
     ('github', 'https://github.com/ayushkumarshah'),
-    ('envelope', 'mailto:ayushkumarshah@gmail.com'),
-    ('linkedin','https://np.linkedin.com/in/ayush7'),
-    ('twitter','https://twitter.com/ayushkumarshah7'),
-    ('facebook','https://www.facebook.com/ayushkumarshah'),
-    ('reddit','https://www.reddit.com/user/ayushkumarshah')
+    ('linkedin','https://www.linkedin.com/in/prakritiadhikari/'),
 )
 
 STATIC_PATHS = ['images', 'extra']
