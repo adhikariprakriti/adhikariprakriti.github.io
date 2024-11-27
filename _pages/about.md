@@ -20,6 +20,8 @@ Graduate Research Assisstant, <br>
 
 **Collaborative Leadership**: Led a cross-functional team to optimize workflows, saving over 10 hours per week in processing time.
 
+---
+
 **Research Interests**: Software engineering, natural language processing (NLP), Machine Learning, Web accessibility
 
 ---
@@ -105,11 +107,15 @@ problems showing involved steps.
 
 ---
 **Programming Languages**: Python, Javascript, C++, Java, PHP, Go
+
 **Databases**: MySQL, MariaDB, MongoDB
+
 **Data Science & Machine Learning**: Decision Trees, Neural Networks, Regression Models, Clustering, Time Series
 Analysis, LSTM, SQL
+
 **Cloud Engineering & DevOps**: AWS (EC2, S3), Azure, Docker, Apache Spark, Git, Linux/Bash, nginx, CI/CD
-**Frameworks & Tools**: FastAPI, React, Next.js, Typescript, Tailwind CSS, Laravel, Jira, Github, SASS/SCSS, Django,
-GraphQL, Postman, RESTful APIs, Node.js, Bootstrap, Snowflake, Microsoft Office
+
+**Frameworks & Tools**: FastAPI, React, Next.js, Typescript, Tailwind CSS, Laravel, Jira, Github, SASS/SCSS, Django, GraphQL, Postman, RESTful APIs, Node.js, Bootstrap, Snowflake, Microsoft Office
+
 **Software Development**: Agile, Scrum, Waterfall, Jira, Postman
 
