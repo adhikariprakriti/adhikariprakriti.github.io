@@ -23,7 +23,7 @@ As a dedicated computer science student with a passion for innovative technology
 
 ---
 
-Get a PDF copy of my CV [here](/files/CV_AyushKumarShah_current.pdf)
+Get a PDF copy of my CV [here](/files/CV_PrakritiAdhikari_current.pdf)
 
 ---
 
