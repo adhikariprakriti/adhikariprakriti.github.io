@@ -17,9 +17,11 @@ Graduate Research Assisstant, <br>
 [Rochester Institute of Technology](https://www.rit.edu), New York
  -->
 **Technical Proficiency**: Software Engineer with 3+ years of experience in developing innovative solutions across multiple platforms, achieving performance improvements of up to 15% through code refactoring, enhancing application speed, improving system scalability and efficient resource management.
+
 **Collaborative Leadership**: Led a cross-functional team to optimize workflows, saving over 10 hours per week in processing time.
 
 **Research Interests**: Software engineering, natural language processing (NLP), Machine Learning, Web accessibility
+
 ---
 
 Get a PDF copy of my CV [here](/files/CV_PrakritiAdhikari_current.pdf)
