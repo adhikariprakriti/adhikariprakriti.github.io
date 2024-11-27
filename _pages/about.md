@@ -107,7 +107,6 @@ problems showing involved steps.
 
 ---
 **Programming Languages**: Python, Javascript, C++, Java, PHP, Go
-
 **Databases**: MySQL, MariaDB, MongoDB
 
 **Data Science & Machine Learning**: Decision Trees, Neural Networks, Regression Models, Clustering, Time Series
