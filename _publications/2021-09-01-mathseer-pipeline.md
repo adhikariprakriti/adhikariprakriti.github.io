@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "A Math Formula Extraction and Evaluation Framework for PDF Documents"
 collection: publications
 permalink: /publication/2021-09-01-mathseer-pipeline
@@ -41,4 +41,4 @@ pages="19--34",                                                              \\
 isbn="978-3-030-86331-9"                                                     \\
 }
 
-{% include iframe_holder.html url="/files/237-teaser.mp4" width="560" height="325" %}
+{% include iframe_holder.html url="/files/237-teaser.mp4" width="560" height="325" %} -->
