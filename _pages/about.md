@@ -64,7 +64,7 @@ Software Engineering; Digital Signal Processing; Embedded Systems
 
 ---
 **Graduate Assistant | Myaamia Center, Miami University | Oxford, OH**
-August 2024 – Present
+August 2024 - Present
 
 - Lead the development of both frontend and backend features, encompassing the design and implementation of REST APIs, advanced search functionalities, analytics capabilities, and migration to AWS.
 
@@ -73,7 +73,7 @@ August 2024 – Present
 - Worked on a digital archive system capable of storing and managing historical linguistic data from 15 diverse indigenous communities, offering researchers 3 times greater accessibility.
 
 
-**Software Engineer | Dialaxy | Kathmandu, Nepal October**  
+**Software Engineer | Dialaxy | Kathmandu, Nepal**  
 October 2023 - May 2024
 
 - Refactored front-end code by removing unnecessary libraries, updating to the latest packages, and integrating TypeScript for type safety while implementing modern Next.js features. These optimizations resulted in a bundle size reduction of over 200 KB and a decrease in page load times by nearly a second, significantly enhancing user experience and application efficiency.
@@ -83,7 +83,7 @@ October 2023 - May 2024
 - Worked on CRM integration projects, including HubSpot and Pipedrive, to streamline customer relationship management processes by automating workflows and improving data synchronization, saving approximately 15 hours per week for the sales team.
 
 **Software Engineer | Rara Labs | Lalitpur, Nepal**
-May 2022 – October 2023
+May 2022 - October 2023
 
 - Developed a microservice-oriented application using React and Go, implementing concurrent processing with Golang’s goroutines and channels to handle multithreaded operations and synchronization. This approach facilitated concurrent processing, handling up to 1,000 requests per second with minimal bottlenecks, measured by a consistent drop in
 response time from 250 ms to under 150 ms under peak loads.
@@ -101,26 +101,21 @@ response time from 250 ms to under 150 ms under peak loads.
 
 ### Projects
 
-- [Nepali Plagiarism Detector (NLP)](https://github.com/ayushkumarshah/Nepali_Plagiarism_Detection)<br>
-An application that detects plagiarised Devanagari text files using a self-built rule-based stemming algorithm and
-Cosine similarity
+- [Nepali Spelling Checker]()<br>
+Nepali Spelling Checker, detects and corrects misspelled words in the Nepali Language, especially in the health
+domain. Spell checker basically involves two steps. At first, the word that needs to be corrected is detected based
+on context. The context of the sentence to be corrected is determined by using the sequence-2-sequence model
+based on GRU neural network architecture. And secondly, the list of candidate words for correction is generated
+using the Levenshtein edit distance algorithm among which the best word is selected as the correct word for
+replacement with the erroneous word.
 
-- [Guitar chord recognizer](https://github.com/ayushkumarshah/Guitar-Chords-recognition)<br>
-An application that predicts the chords when the Mel spectrograms of guitar sound are fed into a CNN.
+- [Urban Heat Island Detection]()<br>
+This project focuses on identifying and analyzing Urban Heat Islands (UHIs), areas within cities that experience significantly higher temperatures due to human activities and urbanization. By utilizing remote sensing technology and geographic information systems (GIS), we map temperature discrepancies across urban landscapes. This data helps inform urban planning and mitigation strategies to enhance city livability by addressing the heat disparities that affect urban environments.
 
-- [AI Plays GTA 5: Simulating self-driving vehicles](https://github.com/ayushkumarshah/AI-Plays-GTA5)<br>
-A bike-riding agent in a virtual environment (GTA5), built using CNN, used for simulating self-driving vehicles.
- 
-- [Sarangi: Nepali lyrics emotions extraction (NLP)](https://github.com/ayushkumarshah/sarangi)<br>
-A framework that categorizes songs written in the Devanagari script into four emotions using Naive Bayes.
-
-- [Autocar](https://github.com/ayushkumarshah/autocar/)<br>
-  A self-driving car that can detect lanes, stop sign, traffic light and avoid a collision, built using Canny edge
-detection, Hough transform, Haar cascade classifier, and Arduino programming.
- 
-- [MathMate – advanced mathematical calculator](https://github.com/ayushkumarshah/MathMate)<br>
-An android app that solves different types of mathematical equations, numerical computations, and calculus
-problems showing involved steps.
+- [Universal Accessibility Layer For Data Visualizations]()<br>
+This project introduces a Universal Accessibility Layer for Data Visualizations, designed to make data interpretation inclusive for all users, including those with disabilities. The layer integrates with existing visualization tools to enhance features such as screen reader support, alternative text, and keyboard navigation, ensuring that data visualizations are accessible and engaging for everyone. 
+<!-- - [Sarangi: Nepali lyrics emotions extraction (NLP)](https://github.com/ayushkumarshah/sarangi)<br>
+A framework that categorizes songs written in the Devanagari script into four emotions using Naive Bayes. -->
 
 ---
 
