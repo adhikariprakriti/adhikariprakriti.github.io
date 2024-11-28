@@ -5,6 +5,7 @@ categories: [ethics]
 summary: The provided blog discusses the ethical and legal dilemma surrounding a case in Italy where a homeless man, Roman Ostriakov, was initially punished for stealing food due to extreme necessity, ultimately leading to a ruling that deemed such an act justifiable under specific dire circumstances.
 tags: [ethics]
 author: Prakriti Adhikari
+link: https://medium.com/@adhikariprakriti3/ethics-or-necessity-94569402ea4b
 ---
 
 “The supreme court in Italy has established a sacrosanct principle: a small theft because of hunger is in no way comparable to an act of delinquency because the need to feed justifies the fact,”

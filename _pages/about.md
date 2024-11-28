@@ -75,6 +75,7 @@ August 2024 – Present
 
 **Software Engineer | Dialaxy | Kathmandu, Nepal October**  
 October 2023 - May 2024
+
 - Refactored front-end code by removing unnecessary libraries, updating to the latest packages, and integrating TypeScript for type safety while implementing modern Next.js features. These optimizations resulted in a bundle size reduction of over 200 KB and a decrease in page load times by nearly a second, significantly enhancing user experience and application efficiency.
 
 - Developed and integrated a mobile dialer feature into a web application using React, WebRTC, and python, enabling real-time voice call capabilities (initiation, receiving, and call management functionalities). This addition contributed to a notable uptick in user engagement, with a marked reduction in customer support tickets, from 250 per month to under 170.
@@ -83,6 +84,7 @@ October 2023 - May 2024
 
 **Software Engineer | Rara Labs | Lalitpur, Nepal**
 May 2022 – October 2023
+
 - Developed a microservice-oriented application using React and Go, implementing concurrent processing with Golang’s goroutines and channels to handle multithreaded operations and synchronization. This approach facilitated concurrent processing, handling up to 1,000 requests per second with minimal bottlenecks, measured by a consistent drop in
 response time from 250 ms to under 150 ms under peak loads.
 

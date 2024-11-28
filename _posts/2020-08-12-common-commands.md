@@ -3,6 +3,7 @@ title: Login and Registration Using JWT, Express, and MySQL
 categories: [authentication]
 summary: Learn how JWTs facilitate secure transmission of information and help manage authentication and authorization in web applications.
 date: 2020-10-07 13:00
+link: https://medium.com/@pas074bct024/login-and-registration-using-jwt-express-and-mysql-c3fcab795fb2
 
 ---
 

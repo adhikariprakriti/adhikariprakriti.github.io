@@ -3,6 +3,7 @@ title: Reusable Button Component in React
 categories: [React]
 summary: Learn to create reusable components in React, specifically focusing on a Button component.
 date: 2020-10-04 20:45:00 +0545
+link: https://medium.com/@pas074bct024/reusable-button-component-in-react-485799811920
 ---
 
 React is made up of a bunch of Components in the Component Tree. Components let us split the entire UI into independent, reusable pieces. Reusable Components are those components which are used in various part of react application. Reusable components speed up the development process ensuring that code is simple, easy to understand and maintenance is stress-free. Such components should be generic i.e. free from any complex business logic.
