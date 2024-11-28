@@ -64,9 +64,11 @@ Software Engineering; Digital Signal Processing; Embedded Systems
 
 ---
 **Graduate Assistant | Myaamia Center, Miami University | Oxford, OH**      August 2024 – Present
-● Lead the development of both frontend and backend features, encompassing the design and implementation of REST APIs, advanced search functionalities, analytics capabilities, and migration to AWS.
-● Working on a Progressive Web App (PWA) with offline functionality for 80% of core features, increasing cross-platform accessibility by 35%.
-● Worked on a digital archive system capable of storing and managing historical linguistic data from 15 diverse indigenous communities, offering researchers 3 times greater accessibility.
+- Lead the development of both frontend and backend features, encompassing the design and implementation of REST APIs, advanced search functionalities, analytics capabilities, and migration to AWS.
+
+- Working on a Progressive Web App (PWA) with offline functionality for 80% of core features, increasing cross-platform accessibility by 35%.
+
+- Worked on a digital archive system capable of storing and managing historical linguistic data from 15 diverse indigenous communities, offering researchers 3 times greater accessibility.
 
 
 

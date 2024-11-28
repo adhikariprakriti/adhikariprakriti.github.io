@@ -8,23 +8,17 @@ header:
 ---
 
 **Research Interests**: 
-Pattern recognition, computer vision, detection and recognition of graphical 
-structures, multi-modal deep learning, natural
-language processing, visual scene parsing.
+Software Engineering, Web Accessibility, Machine Learning, Algorithms,Data Science
 
 My research works and projects include:
 
-- Worked on the [MathSeer project](https://www.cs.rit.edu/~dprl/mathseer/), a system to make finding mathematical information easier by creating innovative
-search engines, interfaces, and algorithms for extracting and recognizing math
-- Built a new open-source math formula extraction pipeline for PDF files
-- Adopted distributed parallelization methods with multiple GPUs and implemented custom dataloader with dynamic batch size to fully utilize the GPU, which increased the speed of the math formula parser by 6 times
-- Built new tools for visualization and evaluation of parsing results and errors
-- Worked on a PDF symbol extractor that identifies precise bounding box locations in born-digital PDF documents
-- Developed a simple and effective algorithm to perform detection of math expressions using visual features alone
-- Wrote an API for recognizing handwritten and typeset formulas and output the corresponding LATEX and MathML
+- Worked on developing a Spelling Checker in Nepali Language
+
+- Explored how new building constructions impact the environment through our Urban Heat Island detection project, which uses geospatial analysis to track urban temperature changes and informs sustainable urban planning
 
 **Current work:**
 
-- Working on improving the accuracy of the math formula parser by experimenting better visual features
-and attention mechanisms
-- Working on adopting the parser to work with more complex graphical structures like chemical diagrams
+- My work focuses on creating robust digital tools that assist in archiving, analyzing, and accessing language data. This technology supports the preservation and teaching of the Myaamia language and culture, ensuring these vital resources are accessible to educators, researchers, and tribal members.
+
+- Working on developing a middleware layer which focus on integrating assistive features directly into popular data visualization libraries such as D3.js, Plotly, and Highcharts.
+
