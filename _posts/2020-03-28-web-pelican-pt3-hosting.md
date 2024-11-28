@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Part 3 - Hosting your website to GitHub Pages and custom domain
 date: 2020-03-28 22:30
 Modified: 2020-05-10 00:38
@@ -259,4 +259,4 @@ If you want to visit any specific parts of the article, you can do so from the l
 - [Part 5: Integrate Disqus comments and Google Analytics with Pelican](https://shahayush.com/2020/05/web-pelican-pt5-disqus-analytics)
 
 
-Or, go to the [home-page of the article.](https://shahayush.com/2020/03/web-pelican-intro)
+Or, go to the [home-page of the article.](https://shahayush.com/2020/03/web-pelican-intro) -->

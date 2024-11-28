@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Organize pandas notebook with cool hacks
 categories: [python-hacks]
 summary: Learn a cool hack to make pandas code clean, well-organized, and highly efficient.
@@ -2788,4 +2788,4 @@ Hence, following these practices while coding in pandas or performing other simi
 
 Moreover, if you find writing these codes difficult, an open source package called [Scikit-lego](https://scikit-lego.readthedocs.io/en/latest/pandas_pipeline.html#) maintained by Vincent and MatthijsB, with contributions from all around the world, is available.  This package does all the hard work for you to create such pipelines along with additional features like custom logging. Do check it out.
 
-Also, if you have any confusion or suggestions, feel free to comment. I am all ears. Thank you.
+Also, if you have any confusion or suggestions, feel free to comment. I am all ears. Thank you. -->
