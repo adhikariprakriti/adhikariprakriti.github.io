@@ -1,5 +1,5 @@
 ---
-title: Common commands 
+title: Common commands ekjdhjwedhuyiew
 categories: [commands]
 summary: A curated list of common commands that makes usage easy.
 date: 2020-08-12 13:00
