@@ -1,129 +1,25 @@
-<!-- ---
-title: Part 4 - Setting up Travis-CI for automating deployment
-date: 2020-05-10 21:47
-categories: [Pelican-for-website-creation]
-summary: Learn to use Travis-CI to automate deploying your website to master branch
-tags: [pelican, python, Travis-ci, build, website]
+---
+title: Ethics or Necessity??
+date: 2020-10-20 21:47
+categories: [ethics]
+summary: The provided blog discusses the ethical and legal dilemma surrounding a case in Italy where a homeless man, Roman Ostriakov, was initially punished for stealing food due to extreme necessity, ultimately leading to a ruling that deemed such an act justifiable under specific dire circumstances.
+tags: [ethics]
 author: Prakriti Adhikari
 ---
 
-This article is a part of a series of articles for web development using pelican. So, if you haven't read the previous
-articles, please check it out by clicking the links below.
+“The supreme court in Italy has established a sacrosanct principle: a small theft because of hunger is in no way comparable to an act of delinquency because the need to feed justifies the fact,”
 
-[Creating and deploying static websites using Markdown and the Python library Pelican](https://shahayush.com/2020/03/web-pelican-intro)
+“The ruling was in the case of a homeless man named Roman Ostriakov, who in 2011 was caught stealing a sausage and some cheese from a Genoa supermarket. He was arrested after a customer informed the store’s security of the theft; and in 2013, he was convicted and sentenced to six months in jail. The case concerning the taking of goods worth under $5 went through three rounds in the courts before making a final decision that it was not a crime.”
 
-- [Part 1: Setting up Pelican - Installation and Theme](https://shahayush.com/2020/03/web-pelican-pt1-setup)
-- [Part 2: Writing content using Markdown](https://shahayush.com/2020/03/web-pelican-pt2-markdown)
-- [Part 3: Hosting your website to GitHub Pages and custom domain](https://shahayush.com/2020/03/web-pelican-pt3-hosting)
+Do you think the man should have been punished for this theft? If so, why?. Don’t you think the man was in extreme necessity? Different people may have different opinions regarding this matter. Some may argue that it was morally ok to steal food while some may argue that it was lawfully incorrect to do so.
 
-Up to this point, you have created and hosted your static website on GitHub pages and custom domain as well.
+Though food is a basic human need, one in nine people does not get enough food to be healthy and lead a successful life. This has forced many people to commit crimes for their existence. The necessity to survive always wins over any kind of ethics and moral values.
 
-Now, let's learn to automate the process of pushing to source and deploying to the master branch by using continuous integration
-tools like [Travis-CI](https://travis-ci.org/) so that you don't need to manually push to two branches every time you
-update your site.
+So people may be easily convinced that it was morally right to steal food. Talking about imposing a fine on the person who stole food with the intention not to starve is very cruel and unethical. How can a person pay a fine if he is struggling day and night just to get food?
 
-- First, visit [Travis-CI](https://travis-ci.org/) and log in using your GitHub account.
+On the other hand, some people may argue that it was unacceptable to steal food with an excuse of extreme necessity. Laws have been made to make the society free of crimes and to set a boundary between good and bad, right and wrong. Today we are arguing that it is totally fine to steal food to feed the family but the next day we might argue that it’s fine to kill people just to fulfill our necessities.
 
-- Then, add your repository `yourusername.github.io` in the [Repositories section](https://travis-ci.org/account/repositories) as shown below.
+Now, where is the boundary? If necessity always becomes an excuse for the crimes we commit then it brings the storm of lawlessness in society. There are many private and governmental organizations to help people who are in extreme situations of hunger. Stealing is not a long term solution. We all are capable of working hard to earn money and eradicate starvation. Think of a situation where you steal food from some other person who is working hard day and night to feed his family. It may solve your problem but at the same time, it puts another person in the same pitiful situation.
 
-![travis-repo](/assets/img/sample/travis-repo.png)
+There is always the conflict between lawfully correct and ethically correct. We cannot easily jump to a conclusion in such a moral dilemma. It requires an understanding of ethics and moral values. These scenarios are more complicated than the simple choice of whether they are correct or not. Instead, these two “correct” choices are opposite to each other, so this is a moral dilemma.
 
-- Now, we need to generate Personal access tokens in GitHub. Go to [Generate new token for Github](https://github.com/settings/tokens/new)
-
-- Check the `public_repo` checkbox and click `Generate Token` as shown below.
-
-![public_repo](/assets/img/sample/public-repo.png)
-
-- Copy the generated token by clicking the copy button as shown below. Note that you cannot view this token again if you don't copy.
-
-![access-token](/assets/img/sample/access-token.png)
-
-- Go back to [Travis-CI Repository](https://travis-ci.org/account/repositories) and open settings. Add the following environment variables as shown in the gif:
-
-    - GH_TOKEN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Paste the value of access token you copied
-    - TRAVIS_REPO_SLUG &nbsp;&nbsp; `username/username.github.io`
-
-![add-token](/assets/img/sample/add-token.gif)
-
-- Now, open `fabfile.py` and delete the publish function along with the wrapper `@hosts(production)` and replace it by the following lines:
-
-```python
-# @hosts(production) > Removed
-def publish(commit_message):
-    """Automatic deploy  to GitHub Pages"""
-    env.msg = commit_message
-    env.GH_TOKEN = os.getenv('GH_TOKEN')
-    env.TRAVIS_REPO_SLUG = os.getenv('TRAVIS_REPO_SLUG')
-    clean()
-    local('pelican -s publishconf.py')
-    with hide('running', 'stdout', 'stderr'):
-        local("ghp-import -m '{msg}' -b {github_pages_branch} {deploy_path}".format(**env))
-        local("git push -fq https://{GH_TOKEN}@github.com/{TRAVIS_REPO_SLUG}.git {github_pages_branch}".format(**env))
-```
-
-- Now, create a `.travis.yml` configuration file in the root directory for automatic deployment.
-
-```console
-(.venv) $ touch .travis.yml
-```
-
-Add the following lines in it.
-
-```yml
-language: python
-cache: pip
-branches:
-  only:
-    - source
-python:
-  - 3.5
-install:
-  - gem install sass
-  - pip install -r requirements.txt
-  - git config --global user.email "your-github-email"
-  - git config --global user.name "your-github-name"
-  - git clone https://github.com/alexandrevicenzi/Flex.git themes/Flex
-  - git clone https://github.com/getpelican/pelican-plugins
-
-script:
-  - fab publish:"Build site"
-```
-
-The above file is responsible for testing every pushed source code and also for automatic deployment of the output folder contents (HTML) to the master branch. Change the theme repository in the above file if you are using a different theme.
-
-- The final step is to add the following line to the top of your `README.md` file.
-
-```markdown
-# Personal Blog [![Build Status](https://travis-ci.org/username/username.github.io.svg?branch=source)](https://travis-ci.org/username/username.github.io)
-```
-
-Note that you must replace `username` by your username in the above line. The above line adds the build status (passed or failed) in your repository as shown below.
-
-![build](/assets/img/sample/build.png)
-
-You can click the build button to view the build status in Travis-CI in detail. You can view why the build failed in detail if the build failed and hence make the necessary corrections in the source code.
-
-If the build fails, the new contents are not pushed to the master branch and hence your website won't be updated by failed content caused by an error in the source code. This enables your website to run without errors at all times.
-
-Hence, after a successful configuration, every time you update your source code and push to the source branch, automatic testing occurs and the website's HTML files are pushed to the master branch.
-
-Learn to integrate Disqus comments and Google Analytics in your website in the [part
-5](https://shahayush.com/2020/05/web-pelican-pt5-disqus-analytics) of the article.
-
-If you have any confusion in any article, feel free to comment on your queries. I will be more than happy to help. I am
-also open to suggestions and feedbacks.  
-
->Also, you can use my GitHub repository for my blog post: [**ayushkumarshah.github.io**](https://github.com/ayushkumarshah/ayushkumarshah.github.io/tree/pelican-backup) as a
-reference in any point of the article. I have followed the same steps mentioned in this series to create my blog
-website that you are seeing right now.
-
-If you want to visit any specific parts of the article, you can do so from the links below.
-
-- [Part 1: Setting up Pelican - Installation and Theme](https://shahayush.com/2020/03/web-pelican-pt1-setup)
-- [Part 2: Writing content using Markdown](https://shahayush.com/2020/03/web-pelican-pt2-markdown)
-- [Part 3: Hosting your website to GitHub Pages and custom domain](https://shahayush.com/2020/03/web-pelican-pt3-hosting)
-- [<span style="color:green">Part 4: Setting up Travis-CI for automating deployment</span>](https://shahayush.com/2020/05/web-pelican-pt4-travisci)
-- [**Part 5: Integrate Disqus comments and Google Analytics with Pelican**](https://shahayush.com/2020/05/web-pelican-pt5-disqus-analytics)
-
-
-Or, go to the [home-page of the article.](https://shahayush.com/2020/03/web-pelican-intro) -->
