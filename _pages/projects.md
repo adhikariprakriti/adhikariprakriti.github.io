@@ -5,8 +5,6 @@ permalink: /projects/
 author_profile: true
 ---
 
-### Projects
-
 - [Nepali Spelling Checker]()<br>
 Nepali Spelling Checker, detects and corrects misspelled words in the Nepali Language, especially in the health
 domain. Spell checker basically involves two steps. At first, the word that needs to be corrected is detected based

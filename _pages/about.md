@@ -93,7 +93,7 @@ response time from 250 ms to under 150 ms under peak loads.
 - Developed and integrated features into accounting software for generating quotations, managing electronic billing, and producing comprehensive financial reports using SQL for data management and automated scripting. This led to a 40% reduction in manual data entry through improved data automation and a 25% increase in user productivity.
 
 
----
+<!-- ---
 
 ## Technical Experience
 
@@ -116,7 +116,7 @@ This project focuses on identifying and analyzing Urban Heat Islands (UHIs), are
 This project introduces a Universal Accessibility Layer for Data Visualizations, designed to make data interpretation inclusive for all users, including those with disabilities. The layer integrates with existing visualization tools to enhance features such as screen reader support, alternative text, and keyboard navigation, ensuring that data visualizations are accessible and engaging for everyone. 
 <!-- - [Sarangi: Nepali lyrics emotions extraction (NLP)](https://github.com/ayushkumarshah/sarangi)<br>
 A framework that categorizes songs written in the Devanagari script into four emotions using Naive Bayes. -->
-
+ -->
 ---
 
 ## Technical Skills
