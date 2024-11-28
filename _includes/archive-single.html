@@ -28,9 +28,9 @@
 
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a href="https://medium.com/@adhikariprakriti3/ethics-or-necessity-94569402ea4b">{{ title }}</a> <a href={{post.link}}><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href={{post.link}} target="_blank">{{ title }}</a> <a href={{post.link}} target="_blank"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href={{post.link}} >{{ title }}</a>
+        <a href={{post.link}} target="_blank">{{ title }}</a>
       {% endif %}
     </h2>
     
