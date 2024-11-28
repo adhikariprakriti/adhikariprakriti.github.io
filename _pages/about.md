@@ -63,7 +63,7 @@ Software Engineering; Digital Signal Processing; Embedded Systems
 ## Work Experience
 
 ---
-**Graduate Assistant | Myaamia Center, Miami University | Oxford, OH**
+**Graduate Assistant | Myaamia Center, Miami University | Oxford, OH** <br>
 August 2024 - Present
 
 - Lead the development of both frontend and backend features, encompassing the design and implementation of REST APIs, advanced search functionalities, analytics capabilities, and migration to AWS.
@@ -73,7 +73,7 @@ August 2024 - Present
 - Worked on a digital archive system capable of storing and managing historical linguistic data from 15 diverse indigenous communities, offering researchers 3 times greater accessibility.
 
 
-**Software Engineer | Dialaxy | Kathmandu, Nepal**  
+**Software Engineer | Dialaxy | Kathmandu, Nepal** <br> 
 October 2023 - May 2024
 
 - Refactored front-end code by removing unnecessary libraries, updating to the latest packages, and integrating TypeScript for type safety while implementing modern Next.js features. These optimizations resulted in a bundle size reduction of over 200 KB and a decrease in page load times by nearly a second, significantly enhancing user experience and application efficiency.
@@ -82,7 +82,7 @@ October 2023 - May 2024
 
 - Worked on CRM integration projects, including HubSpot and Pipedrive, to streamline customer relationship management processes by automating workflows and improving data synchronization, saving approximately 15 hours per week for the sales team.
 
-**Software Engineer | Rara Labs | Lalitpur, Nepal**
+**Software Engineer | Rara Labs | Lalitpur, Nepal** <br>
 May 2022 - October 2023
 
 - Developed a microservice-oriented application using React and Go, implementing concurrent processing with Golang’s goroutines and channels to handle multithreaded operations and synchronization. This approach facilitated concurrent processing, handling up to 1,000 requests per second with minimal bottlenecks, measured by a consistent drop in
