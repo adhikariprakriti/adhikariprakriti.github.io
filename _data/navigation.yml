@@ -23,6 +23,9 @@ main:
 
   - title: "Projects"
     url: /projects/
+  
+  - title: "Work Experience"
+    url: /work-experience/
     
   # - title: "Certificates"
   #   url: /certificates/
