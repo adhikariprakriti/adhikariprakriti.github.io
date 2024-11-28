@@ -114,9 +114,9 @@ This project focuses on identifying and analyzing Urban Heat Islands (UHIs), are
 
 - [Universal Accessibility Layer For Data Visualizations]()<br>
 This project introduces a Universal Accessibility Layer for Data Visualizations, designed to make data interpretation inclusive for all users, including those with disabilities. The layer integrates with existing visualization tools to enhance features such as screen reader support, alternative text, and keyboard navigation, ensuring that data visualizations are accessible and engaging for everyone. 
-<!-- - [Sarangi: Nepali lyrics emotions extraction (NLP)](https://github.com/ayushkumarshah/sarangi)<br>
+[Sarangi: Nepali lyrics emotions extraction (NLP)](https://github.com/ayushkumarshah/sarangi)<br>
 A framework that categorizes songs written in the Devanagari script into four emotions using Naive Bayes. -->
- -->
+
 ---
 
 ## Technical Skills
