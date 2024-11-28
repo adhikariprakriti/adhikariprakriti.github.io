@@ -8,7 +8,7 @@ header:
 ---
 
 **Research Interests**: 
-Software Engineering, Web Accessibility, Machine Learning, Algorithms,Data Science
+Software Engineering, Web Accessibility, Machine Learning, Algorithms, Data Science
 
 My research works and projects include:
 
